@@ -25,24 +25,6 @@
   </span>
   @endif
 </div>
-<div class="form-group">
-  {{Form::label('telefono','Telefono')}}
-  {{Form::text('telefono',null,['class'=>$errors->has('telefono') ? 'form-control is-invalid' : 'form-control'])}}
-  @if ($errors->has('telefono'))
-  <span class="invalid-feedback" role="alert">
-    <strong>{{ $errors->first('telefono') }}</strong>
-  </span>
-  @endif
-</div>
-<div class="form-group">
-  {{Form::label('ciudad','Ciudad')}}
-  {{Form::text('ciudad',null,['class'=>$errors->has('ciudad') ? 'form-control is-invalid' : 'form-control'])}}
-  @if ($errors->has('ciudad'))
-  <span class="invalid-feedback" role="alert">
-    <strong>{{ $errors->first('ciudad') }}</strong>
-  </span>
-  @endif
-</div>
 @if(!isset($user))
 <div class="form-group">
   <label for="password">{{ __('Password') }}</label>

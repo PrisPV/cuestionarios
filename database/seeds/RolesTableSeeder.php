@@ -21,12 +21,12 @@ class RolesTableSeeder extends Seeder
       Role::create([
         'name'=>'Profesor',
         'slug'=>'profesor',
-        'description'=>'Profesor',
+        'description'=>'Gestiona cuestionarios',
       ]);
       Role::create([
         'name'=>'Estudiante',
         'slug'=>'estudiante',
-        'description'=>'Administrador del sistema',
+        'description'=>'Rinde cuestionarios',
       ]);
     }
 }

@@ -28,8 +28,6 @@ class UserRequest extends FormRequest
       'name' => ['required', 'string', 'max:255'],
       'email' => ['required', 'string', 'email', 'max:255', $this->method()=='POST'?'unique:users':''],
       'cedula' => ['required', 'string', 'max:10', new Cedula()],
-      'telefono' => ['required', 'string', 'max:10'],
-      'ciudad' => ['required', 'string', 'max:255'],
       'password' => [$this->method()=='POST'?'required':'', 'string', 'min:6', $this->method()=='POST'?'confirmed':''],
     ];
   }
