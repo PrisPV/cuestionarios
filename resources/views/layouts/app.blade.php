@@ -85,7 +85,7 @@
           <!-- Right Side Of Navbar -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#" onclick="ajustarTexto();">Ajustar texto</a>
+              <a class="nav-link" href="#" onclick="ajustarTexto();"><img src="http://localhost/cuestionarios/public/increase-font.png" alt="ajustar texto" height="22" width="22"></a>
             </li>
             <!-- Authentication Links -->
             @guest
