@@ -59,7 +59,7 @@ class UsersTableSeeder extends Seeder
     }
     $user = new User();
     $user->name = 'Andrea Villalba';
-    $user->email = 'avillaba@utpl.edu.ec';
+    $user->email = 'avillalba@utpl.edu.ec';
     $user->email_verified_at = now();
     $user->cedula ='1720731320';
     $user->password = Hash::make('avillalba');
@@ -289,7 +289,7 @@ $user->roles()->attach($role->id);
 }
 
 $user = new User();
-$user->name = 'Gabriel ortega';
+$user->name = 'Gabriel Ortega';
 $user->email = 'gortega@utpl.edu.ec';
 $user->email_verified_at = now();
 $user->cedula ='1718324948';
