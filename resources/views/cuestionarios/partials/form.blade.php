@@ -17,7 +17,7 @@
   @endif
 </div>
 <div class="form-group">
-  {{Form::label('fecha_limite','Fecha limite')}}
+  {{Form::label('fecha_limite','Fecha límite')}}
   {{Form::date('fecha_limite',null,['class'=>$errors->has('fecha_limite') ? 'form-control is-invalid' : 'form-control'])}}
   @if ($errors->has('fecha_limite'))
   <span class="invalid-feedback" role="alert">

@@ -3,6 +3,7 @@
 {{ Breadcrumbs::render('cuestionarios.index', $asignatura) }}
 @endsection
 @section('content')
+
 <div class="card">
   <div class="card-header">
     Cuestionarios
@@ -10,14 +11,13 @@
     <a href="{{route('cuestionarios.create',$asignatura->id)}}" class="btn btn-sm btn-primary float-right">Crear</a>
     @endcan
   </div>
-
   <div class="card-body table-responsive">
     <table class="table table-striped table-hover">
       <thead>
         <tr>
           <th>Descripcion</th>
           <th>Intentos</th>
-          <th>Fecha limite</th>
+          <th>Fecha límite</th>
           <th>Estado</th>
           <th width="10px">Acciones</th>
         </tr>
@@ -25,6 +25,7 @@
       <tbody>
         @foreach($cuestionarios as $cuestionario)
         <tr>
+        @if($asignatura->id==$cuestionario->asignatura_id)
           <td>{{$cuestionario->descripcion}}</td>
           <td>{{$cuestionario->intentos}}</td>
           <td>{{$cuestionario->fecha_limite}}</td>
@@ -52,6 +53,7 @@
               </div>
             </div>
           </td>
+          @endif
         </tr>
         @endforeach
       </tbody>

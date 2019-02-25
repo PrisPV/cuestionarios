@@ -15,7 +15,7 @@
   <div class="card-body">
     <p><strong>Descripcion:</strong> {{$cuestionario->descripcion}}</p>
     <p><strong>Intentos permitidos:</strong> {{$cuestionario->intentos}}</p>
-    <p><strong>Fecha limite:</strong> {{$cuestionario->fecha_limite}}</p>
+    <p><strong>Fecha límite:</strong> {{$cuestionario->fecha_limite}}</p>
     <p><strong>Fecha de creacion:</strong> {{$cuestionario->created_at}}</p>
   </div>
 </div>
