@@ -22,5 +22,50 @@ class CuestionariosTableSeeder extends Seeder
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
+
+        DB::table('cuestionarios')->insert([
+            'descripcion'=>'Autoevaluación 2',
+            'intentos'=>'3',
+            'fecha_limite'=>'2019-03-22 23:55:00',
+            'hora_limite'=>'23:55:00',
+            'estado'=>'1',
+            'user_id'=>'14',
+            'asignatura_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('cuestionarios')->insert([
+            'descripcion'=>'Autoevaluación 1',
+            'intentos'=>'3',
+            'fecha_limite'=>'2019-03-22 23:55:00',
+            'hora_limite'=>'23:55:00',
+            'estado'=>'1',
+            'user_id'=>'5',
+            'asignatura_id'=>'1',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('cuestionarios')->insert([
+            'descripcion'=>'Cuestionario Unidad 1',
+            'intentos'=>'3',
+            'fecha_limite'=>'2019-03-22 23:55:00',
+            'hora_limite'=>'23:55:00',
+            'estado'=>'1',
+            'user_id'=>'18',
+            'asignatura_id'=>'7',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('cuestionarios')->insert([
+            'descripcion'=>'Autoevaluación 1',
+            'intentos'=>'3',
+            'fecha_limite'=>'2019-03-22 23:55:00',
+            'hora_limite'=>'23:55:00',
+            'estado'=>'1',
+            'user_id'=>'9',
+            'asignatura_id'=>'5',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
     }
 }
