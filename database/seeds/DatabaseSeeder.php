@@ -19,5 +19,7 @@ class DatabaseSeeder extends Seeder
     $this->call(Asignatura_UserTableSeeder::class);
     $this->call(Permission_RoleTableSeeder::class);
     $this->call(CuestionariosTableSeeder::class);
+    $this->call(PreguntasTableSeeder::class);
+    $this->call(OpcionesTableSeeder::class);
   }
 }
