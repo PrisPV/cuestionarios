@@ -14,7 +14,7 @@ class CuestionariosTableSeeder extends Seeder
         DB::table('cuestionarios')->insert([
             'descripcion'=>'Autoevaluación 1',
             'intentos'=>'3',
-            'fecha_limite'=>'2019-03-22 23:55:00',
+            'fecha_limite'=>'2019-03-31 23:55:00',
             'hora_limite'=>'23:55:00',
             'estado'=>'1',
             'user_id'=>'14',
@@ -26,7 +26,7 @@ class CuestionariosTableSeeder extends Seeder
         DB::table('cuestionarios')->insert([
             'descripcion'=>'Autoevaluación 2',
             'intentos'=>'3',
-            'fecha_limite'=>'2019-03-22 23:55:00',
+            'fecha_limite'=>'2019-03-31 23:55:00',
             'hora_limite'=>'23:55:00',
             'estado'=>'1',
             'user_id'=>'14',
@@ -37,7 +37,7 @@ class CuestionariosTableSeeder extends Seeder
         DB::table('cuestionarios')->insert([
             'descripcion'=>'Autoevaluación 1',
             'intentos'=>'3',
-            'fecha_limite'=>'2019-03-22 23:55:00',
+            'fecha_limite'=>'2019-03-31 23:55:00',
             'hora_limite'=>'23:55:00',
             'estado'=>'1',
             'user_id'=>'5',
@@ -48,7 +48,7 @@ class CuestionariosTableSeeder extends Seeder
         DB::table('cuestionarios')->insert([
             'descripcion'=>'Cuestionario Unidad 1',
             'intentos'=>'3',
-            'fecha_limite'=>'2019-03-22 23:55:00',
+            'fecha_limite'=>'2019-03-31 23:55:00',
             'hora_limite'=>'23:55:00',
             'estado'=>'1',
             'user_id'=>'18',
@@ -59,7 +59,7 @@ class CuestionariosTableSeeder extends Seeder
         DB::table('cuestionarios')->insert([
             'descripcion'=>'Autoevaluación 1',
             'intentos'=>'3',
-            'fecha_limite'=>'2019-03-22 23:55:00',
+            'fecha_limite'=>'2019-03-31 23:55:00',
             'hora_limite'=>'23:55:00',
             'estado'=>'1',
             'user_id'=>'9',
