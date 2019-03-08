@@ -81,5 +81,76 @@ class PreguntasTableSeeder extends Seeder
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
+        /** Cuestionario Ingenierìa de Requisitos : 2. Cuestionario Unidad 1 */
+        DB::table('preguntas')->insert([
+            'pregunta'=>'La Ingeniería de Requisitos, es importante por:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Son declaraciones en lenguaje natural y en diagramas de los servicios que se espera que el sistema provea y de las restricciones bajo las cuales debe operar:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Los requerimientos funcionales describen:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Los requerimientos de usuario:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Los requerimientos no funcionales se los puede clasificar en:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'La característica de factibilidad en un requisito individual se refiere a:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Un requisito individual es concreto cuando se refiere a:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Un requisito tiene la característica de consistente cuando:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Un requisito es trazable cuando:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Los requisitos deben ser validados:',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'2',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
     }
 }

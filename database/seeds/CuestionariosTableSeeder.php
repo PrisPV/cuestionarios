@@ -24,13 +24,13 @@ class CuestionariosTableSeeder extends Seeder
         ]);
 
         DB::table('cuestionarios')->insert([
-            'descripcion'=>'Autoevaluación 2',
+            'descripcion'=>'Cuestionario Unidad 1',
             'intentos'=>'3',
             'fecha_limite'=>'2019-03-31 23:55:00',
             'hora_limite'=>'23:55:00',
-            'estado'=>'Inactivo',
+            'estado'=>'Activo',
             'user_id'=>'14',
-            'asignatura_id'=>'2',
+            'asignatura_id'=>'8',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
