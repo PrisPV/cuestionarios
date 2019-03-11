@@ -39,9 +39,9 @@ class CuestionariosTableSeeder extends Seeder
             'intentos'=>'3',
             'fecha_limite'=>'2019-03-31 23:55:00',
             'hora_limite'=>'23:55:00',
-            'estado'=>'Inactivo',
+            'estado'=>'Activo',
             'user_id'=>'5',
-            'asignatura_id'=>'1',
+            'asignatura_id'=>'6',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);

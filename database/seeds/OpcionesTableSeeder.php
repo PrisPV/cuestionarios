@@ -523,5 +523,155 @@ class OpcionesTableSeeder extends Seeder
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
+         /*Cuestionario Unidad 1 - Inteligencia Artificial - Pregunta 1 */
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'21',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'21',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 2*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'22',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'22',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 3*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'23',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'23',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 4*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'24',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'24',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 5*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'25',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'25',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 6*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'26',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'26',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 7*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'27',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'27',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 8*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'28',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'28',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 9*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'29',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'29',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 10*/
+        DB::table('opciones')->insert([
+            'opcion'=>'V',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'30',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'F',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'30',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
     }
 }

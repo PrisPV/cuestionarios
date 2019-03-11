@@ -152,5 +152,76 @@ class PreguntasTableSeeder extends Seeder
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
+        /** Cuestionario Inteligencia Artificial : 1. Autoevaluación 1 */
+        DB::table('preguntas')->insert([
+            'pregunta'=>'El dualismo considera que las operaciones del cerebro realizadas de acuerdo a las leyes de la física constituyen la mente.',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Normalmente una base de conocimiento representa el conocimiento en forma de reglas ¨si.. entonces..¨.',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Los seres humanos se consideran agentes.',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Los agentes inteligentes son irracionales.',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'La IA sintetiza y automatiza tareas intelectuales y es, potencialmente relevante para cualquier ámbito de la actividad intelectual humana. ',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Las disciplinas que abarcan la mayor parte de la IA son: procesamiento de lenguaje natural, representación del conocimiento, razonamiento automático, aprendizaje de máquina, visión computacional, robótica. ',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'En todo tipo de entorno es posible llegar a una racionalidad perfecta. ',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'En los agentes robóticos los sensores constituyen ciertos mecanismos y los efectores las cámaras de video.',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'La inteligencia artificial (IA) desde el primer momento abarcó temas que eran considerados por otros campos como: la idea de duplicar facultades humanas como la creatividad, la automejora, y el uso de lenguaje.',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('preguntas')->insert([
+            'pregunta'=>'Los psicólogos adoptaron la idea de que los humanos y los animales podían trabajar como máquinas de procesamiento de información. ',
+            'tipo'=>'seleccion_unica',
+            'cuestionario_id'=>'3',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
     }
 }
