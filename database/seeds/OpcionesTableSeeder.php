@@ -322,7 +322,7 @@ class OpcionesTableSeeder extends Seeder
         ]);
         /** Pregunta 4*/
         DB::table('opciones')->insert([
-            'opcion'=>'Describen con detalle las funcionalidades que proveerá el sistema a desarrollarse. ',
+            'opcion'=>'Son más críticos que los requerimientos funcionales particulares. ',
             'resp_correcta'=>'1',
             'pregunta_id'=>'14',
             'created_at'=> now(),
@@ -330,6 +330,13 @@ class OpcionesTableSeeder extends Seeder
         ]);
         DB::table('opciones')->insert([
             'opcion'=>'Describen de forma general la funcionalidad que proveerá el sistema a desarrollarse. ',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'14',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Describen con detalle las funcionalidades que proveerá el sistema a desarrollarse.',
             'resp_correcta'=>'0',
             'pregunta_id'=>'14',
             'created_at'=> now(),
@@ -337,13 +344,6 @@ class OpcionesTableSeeder extends Seeder
         ]);
         DB::table('opciones')->insert([
             'opcion'=>'Se refieren a las propiedades emergentes del sistema como fiabilidad, el tiempo de respuesta.',
-            'resp_correcta'=>'0',
-            'pregunta_id'=>'14',
-            'created_at'=> now(),
-            'updated_at'=> now(),
-        ]);
-        DB::table('opciones')->insert([
-            'opcion'=>'Provienen del dominio de aplicación del sistema y que reflejan las características de ese dominio.',
             'resp_correcta'=>'0',
             'pregunta_id'=>'14',
             'created_at'=> now(),
@@ -382,19 +382,48 @@ class OpcionesTableSeeder extends Seeder
         DB::table('opciones')->insert([
             'opcion'=>'Si no necesita ampliar detalles en su redacción, es decir, proporciona la información suficiente para su comprensión. ',
             'resp_correcta'=>'0',
-            'pregunta_id'=>'17',
+            'pregunta_id'=>'16',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
         DB::table('opciones')->insert([
             'opcion'=>'No tiene ambigüedades cuando se lo puede interpretar de una sola forma, y por lo tanto el lenguaje usado en su definición no causa confusiones al lector. ',
             'resp_correcta'=>'0',
-            'pregunta_id'=>'17',
+            'pregunta_id'=>'16',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
         DB::table('opciones')->insert([
             'opcion'=>'Cuando se prescinde del mismo provoca una deficiencia en el sistema a construir; además cuando sus características físicas o factor de calidad no pueden ser reemplazados por otras capacidades del producto.',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'16',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Debe ser posible poner en práctica cada requerimiento dentro de las capacidades conocidas y las limitaciones del sistema en su entorno de operaciones.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'16',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 7*/
+        DB::table('opciones')->insert([
+            'opcion'=>'No tiene ambigüedades cuando se lo puede interpretar de una sola forma, y por lo tanto el lenguaje usado en su definición no causa confusiones al lector.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'17',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Cuando se prescinde del mismo provoca una deficiencia en el sistema a construir.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'17',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Si no necesita ampliar detalles en su redacción, es decir, proporciona la información suficiente para su comprensión.',
             'resp_correcta'=>'1',
             'pregunta_id'=>'17',
             'created_at'=> now(),
@@ -402,37 +431,95 @@ class OpcionesTableSeeder extends Seeder
         ]);
         DB::table('opciones')->insert([
             'opcion'=>'Debe ser posible poner en práctica cada requerimiento dentro de las capacidades conocidas y las limitaciones del sistema en su entorno de operaciones.',
-            'resp_correcta'=>'1',
+            'resp_correcta'=>'0',
             'pregunta_id'=>'17',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
         /** Pregunta 8*/
         DB::table('opciones')->insert([
-            'opcion'=>'Si no necesita ampliar detalles en su redacción, es decir, proporciona la información suficiente para su comprensión. ',
+            'opcion'=>'Ningún requerimiento o información necesaria deberían estar ausentes, sin embargo los requisitos que faltan son difíciles de detectar porque no están descritos.',
             'resp_correcta'=>'0',
-            'pregunta_id'=>'17',
+            'pregunta_id'=>'18',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
         DB::table('opciones')->insert([
-            'opcion'=>'No tiene ambigüedades cuando se lo puede interpretar de una sola forma, y por lo tanto el lenguaje usado en su definición no causa confusiones al lector. ',
+            'opcion'=>'No entra en conflicto con otros requisitos del mismo tipo o con un mayor nivel de negocios, sistema o necesidades de los usuarios.',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'18',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Es capaz de revisar en el SRS cuando sea necesario y para mantener un historial de los cambios realizados de acuerdo a cada necesidad surgida; cada requisito debe aparecer solo una vez en el SRS.',
             'resp_correcta'=>'0',
-            'pregunta_id'=>'17',
+            'pregunta_id'=>'18',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
         DB::table('opciones')->insert([
-            'opcion'=>'Cuando se prescinde del mismo provoca una deficiencia en el sistema a construir; además cuando sus características físicas o factor de calidad no pueden ser reemplazados por otras capacidades del producto.',
-            'resp_correcta'=>'1',
-            'pregunta_id'=>'17',
+            'opcion'=>'Puede estar vinculado a su origen hacia atrás y hacia adelante a los elementos de diseño y código fuente que aplicarla a uno de los casos de prueba que verifique la aplicación como correcta.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'18',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 9*/
+        DB::table('opciones')->insert([
+            'opcion'=>'Ningún requerimiento o información necesaria deberían estar ausentes, sin embargo los requisitos que faltan son difíciles de detectar porque no están descritos.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'19',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
         DB::table('opciones')->insert([
-            'opcion'=>'Debe ser posible poner en práctica cada requerimiento dentro de las capacidades conocidas y las limitaciones del sistema en su entorno de operaciones.',
+            'opcion'=>'Puede estar vinculado a su origen hacia atrás y hacia adelante a los elementos de diseño y código fuente que aplicarla a uno de los casos de prueba que verifique la aplicación como correcta.',
             'resp_correcta'=>'1',
-            'pregunta_id'=>'17',
+            'pregunta_id'=>'19',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Es capaz de revisar en el SRS cuando sea necesario y para mantener un historial de los cambios realizados de acuerdo a cada necesidad surgida; cada requisito debe aparecer solo una vez en el SRS.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'19',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Es capaz de revisar en el SRS cuando sea necesario y para mantener un historial de los cambios realizados de acuerdo a cada necesidad surgida; cada requisito debe aparecer sólo una vez en el SRS.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'19',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        /** Pregunta 10*/
+        DB::table('opciones')->insert([
+            'opcion'=>'Para asegurarse que el equipo de desarrollo de software haya entendido los requisitos.',
+            'resp_correcta'=>'1',
+            'pregunta_id'=>'20',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Para examinar el documento de los requisitos.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'20',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Para ayudar al equipo de desarrollo a identificar, controlar y seguir los requisitos y los cambios en cualquier momento. ',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'20',
+            'created_at'=> now(),
+            'updated_at'=> now(),
+        ]);
+        DB::table('opciones')->insert([
+            'opcion'=>'Para la comprensión del problema únicamente por parte del desarrollador.',
+            'resp_correcta'=>'0',
+            'pregunta_id'=>'20',
             'created_at'=> now(),
             'updated_at'=> now(),
         ]);
